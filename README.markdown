@@ -32,15 +32,22 @@ We have also changed out most of the plugins in favor of newer more stable alter
 
 The goal has always been to add functionality without changing all the features, functionality and keystrokes we all love. Using spf13-vim we've kept all the default behaviors (by and large), so if you ever find yourself on a vanilla environment you'll feel right at home.
 
+# Jair's Customizations
+
+Please check the following files.
+
+1. vimrc.bundles.fork
+2. vimrc.fork
+
 # Installation 
 
 ## Linux, \*nix, Mac OSX Installation
 
-The easiest way to install spf13-vim is to use our [automatic installer](http://j.mp/spf13-vim3) by simply copying and pasting the following line into a terminal. This will install spf13-vim and backup your existing vim configuration. If you are upgrading from a prior version (before 3.0) this is also the recommended installation.
+The easiest way to install spf13-vim is to use our automatic installer by simply copying and pasting the following line into a terminal. This will install spf13-vim and backup your existing vim configuration. If you are upgrading from a prior version (before 3.0) this is also the recommended installation.
 
 ```bash
 
-    curl http://j.mp/spf13-vim3 -L -o - | sh
+    curl http://j.mp/jair-vim -L -o - | sh
 
 ```
 
