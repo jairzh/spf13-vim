@@ -1,0 +1,9 @@
+" The plugin groups
+g:spf13_bundle_groups=['general', 'neocomplcache', 'programming', 'ruby', 'javascript', 'html', 'misc']
+
+" For Rails.vim need to add this, Rcontroller .. will work well
+" Most prefer to automatically switch to the current file directory when
+" a new buffer is opened; to prevent this behavior, add
+" let g:spf13_no_autochdir = 1 to your .vimrc.bundles.local file
+
+let g:spf13_no_autochdir = 1
