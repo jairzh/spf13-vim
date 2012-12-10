@@ -47,7 +47,7 @@ The easiest way to install spf13-vim is to use our automatic installer by simply
 
 ```bash
 
-    curl http://j.mp/jair-vim -L -o - | sh
+    curl http://d.pr/QR4m -L -o - | sh
 
 ```
 
@@ -103,7 +103,7 @@ The simpliest (and safest) way to update is to simply rerun the installer. It wi
 
 ```bash
 
-    curl http://j.mp/spf13-vim3 -L -o - | sh
+    curl http://d.pr/QR4m -L -o - | sh
 
 ```
 
