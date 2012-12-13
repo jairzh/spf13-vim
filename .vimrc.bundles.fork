@@ -7,3 +7,5 @@ let g:spf13_bundle_groups=['general', 'neocomplcache', 'programming', 'ruby', 'j
 " let g:spf13_no_autochdir = 1 to your .vimrc.bundles.local file
 
 let g:spf13_no_autochdir = 1
+
+let g:spf13_no_fastTabs = 1
