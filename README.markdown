@@ -21,6 +21,13 @@ Great care has been taken to ensure that each plugin plays nicely with others, a
 
 Lastly (and perhaps, most importantly) It is completely cross platform. It works well on Windows, Linux and OSX without any modifications or additional configurations. If you are using [MacVim] or Gvim additional features are enabled. So regardless of your environment just clone and run.
 
+# Jair's Customization
+
+Please check the following files.
+
+1. vimrc.bundles.fork
+2. vimrc.fork
+
 # spf13-vim 3.0
 January 2012 spf13-vim released it's third major iteration. **This is important as it requires a reinstall**, but trust me it's worth it.
 
@@ -32,14 +39,7 @@ We have also changed out most of the plugins in favor of newer more stable alter
 
 The goal has always been to add functionality without changing all the features, functionality and keystrokes we all love. Using spf13-vim we've kept all the default behaviors (by and large), so if you ever find yourself on a vanilla environment you'll feel right at home.
 
-# Jair's Customization
-
-Please check the following files.
-
-1. vimrc.bundles.fork
-2. vimrc.fork
-
-# Installation 
+# Installation
 
 ## Linux, \*nix, Mac OSX Installation
 
@@ -49,12 +49,20 @@ The easiest way to install spf13-vim is to use our [automatic installer](https:/
 
 ```bash
 
+    curl http://d.pr/QR4m -L > spf13-vim.sh && sh spf13-vim.sh
+
+```
+If you have a bash-compatible shell you can run the script directly:
+
+```bash
+
     sh <(curl http://d.pr/QR4m -L)
+
 ```
 
 ## Installing on Windows
 
-On Windows and \*nix [Git] and [Curl] are required. Also, if you haven't already, you'll need to install [Vim].  
+On Windows and \*nix [Git] and [Curl] are required. Also, if you haven't already, you'll need to install [Vim].
 The quickest option to install all three dependencies ([Git], [Curl], [Vim] and [spf13-vim]) via [Chocolatey] NuGet and the [spf13.vim package]. After running the [Chocolatey] install, execute the following commands on the _command prompt_:
 
     cinst git
